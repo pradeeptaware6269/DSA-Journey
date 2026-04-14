@@ -1,0 +1,22 @@
+package com.DSA;
+
+public class Day1_Pattern_1 {
+	public void pattern() {
+
+		// For rectangle
+		for (int i = 0; i < 4; i++) {
+			System.out.println();
+			for (int j = 0; j < 5; j++) {
+				System.out.print("*");
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		Day1_Pattern_1 p = new Day1_Pattern_1();
+		System.out.println("Here we are priting the pattern ");
+
+		p.pattern();
+	}
+
+}

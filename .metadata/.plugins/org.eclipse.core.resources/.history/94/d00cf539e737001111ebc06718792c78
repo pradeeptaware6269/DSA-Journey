@@ -1,0 +1,8 @@
+package com.DSA;
+
+public class Day1_Pattern_5 {
+	public static void main(String[] args) {
+		// for interved half pyramid rotated by 180 degree
+	}
+
+}

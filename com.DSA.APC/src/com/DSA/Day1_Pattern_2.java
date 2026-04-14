@@ -1,0 +1,30 @@
+package com.DSA;
+
+public class Day1_Pattern_2 {
+	public void meth1() {
+		// for hallow rectangle
+		for (int i = 1; i <= 4; i++) {
+			for (int j = 1; j <= 5; j++) {
+				if (i == 1 || i == 4) {
+					System.out.print("*");
+				} else {
+
+					if (j == 2 || j == 3 || j == 4) {
+						System.out.print(" ");
+					} else {
+						System.out.print("*");
+					}
+				}
+			}
+			System.out.println();
+		}
+
+	}
+
+	public static void main(String[] args) {
+		Day1_Pattern_2 p = new Day1_Pattern_2();
+		p.meth1();
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package com.DSA;
+
+public class Day1_Pattern_2 {
+	public void meth1() {
+		for (int i = 1; i <= 4; i++) {
+			for (int j = 1; j <= 5; j++) {
+				if (i == 1 || i == 4) {
+					System.out.print("*");
+				} else {
+					for (int k = 0; k <= 5; k++) {
+						if (k == 1 || k == 2 || k == 3) {
+							continue;
+						} else {
+							System.out.print("*");
+						}
+					}
+				}
+			}
+			System.out.println("\n");
+		}
+	}
+
+	public static void main(String[] args) {
+		Day1_Pattern_2 p = new Day1_Pattern_2();
+		p.meth1();
+
+	}
+
+}

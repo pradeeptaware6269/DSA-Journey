@@ -1,0 +1,18 @@
+package com.DSA;
+
+public class Day1_Pattern_2 {
+	public void meth1() {
+		for (int i = 0; i <= 4; i++) {
+			for (int j = 0; j <= 5; j++) {
+				if (j == 1 || j == 2 || j == 3) {
+
+				}
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}
