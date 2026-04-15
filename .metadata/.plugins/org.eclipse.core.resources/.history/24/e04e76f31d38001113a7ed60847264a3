@@ -1,0 +1,25 @@
+package com.DSA;
+
+public class Day2_Number_pyramid {
+
+	public static void main(String[] args) {
+		int n = 5;
+
+		for (int i = 1; i <= n; i++) {
+			for (int j = 4; j >= i; j--) {
+				System.out.print(" ");
+			}
+			for (int k = 1; k <= i * 2; k++) {
+				int sum = i + k;
+				if (sum % 2 != 0) {
+					System.out.print(" ");
+				} else {
+					System.out.print(i);
+				}
+			}
+			System.out.println();
+
+		}
+	}
+
+}

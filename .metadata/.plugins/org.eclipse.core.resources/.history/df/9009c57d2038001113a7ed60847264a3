@@ -1,0 +1,8 @@
+package com.DSA;
+
+public class Day2_Palindromic_Pattern {
+	public static void main(String[] args) {
+		
+	}
+
+}
